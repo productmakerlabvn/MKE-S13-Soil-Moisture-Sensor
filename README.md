@@ -1,22 +1,22 @@
-# Cảm biến mưa MKE-S12 Rain Water Sensor
+# Cảm biến độ ẩm đất MKE-S13 Soil Moisture Sensor
 
 ## Giới thiệu
 
-Cảm biến mưa MKE-S12 Rain Water Sensor bao gồm một đầu dò (probe) và mạch chuyển đổi tín hiệu, cảm biến hoạt động theo nguyên lý cảm ứng điện dung nên đầu dò được phủ lớp sơn chống oxy hóa (không hở phần tiếp xúc kim loại như các loại sử dụng nguyên lý điện trở) cho độ bền cao, cảm biến trả ra giá trị điện áp Analog tương ứng với lượng nước lưu lại trên đầu dò giúp bạn có thể ghi nhận và xử lý thông tin một cách chính xác nhất, ngoài ra cảm biến còn được bổ sung các thiết kế ổn định, chống nhiễu.
+Cảm biến độ ẩm đất MKE-S13 soil moisture sensor bao gồm một đầu dò (probe) và mạch chuyển đổi tín hiệu, cảm biến hoạt động theo nguyên lý cảm ứng điện dung nên đầu dò được phủ lớp sơn chống oxy hóa (không hở phần tiếp xúc kim loại như các loại sử dụng nguyên lý cảm ứng điện trở) cho độ bền cao, cảm biến trả ra giá trị điện áp Analog tương ứng với độ ẩm của đất tại vị trí đầu dò giúp bạn có thể ghi nhận và xử lý thông tin một cách chính xác nhất, ngoài ra cảm biến còn được bổ sung các thiết kế ổn định, chống nhiễu.
 
-Cảm biến mưa MKE-S12 Rain Water Sensor thuộc hệ sinh thái phần cứng Robotics MakerEdu nên có thể sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....với chuẩn kết nối Connector XH2.54 thông dụng.
+Cảm biến độ ẩm đất MKE-S13 soil moisture sensor thuộc hệ sinh thái phần cứng Robotics MakerEdu nên có thể sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....với chuẩn kết nối Connector XH2.54 thông dụng.
 
 ## Nguyên lý hoạt động
 
-Cảm biến hoạt động theo nguyên lý cảm ứng điện dung để nhận biết lượng nước đọng trên đầu dò (probe), sau đó điện dung của đầu dò (probe) được đưa qua mạch chuyển đổi tín hiệu để chuyển thành tín hiệu điện có thể đọc được bằng bộ chuyển đổi ADC (Analog to Digital Converter) của mạch xử lý.
+Cảm biến hoạt động theo nguyên lý cảm ứng điện dung để nhận biết độ ẩm của đầu dò (probe), sau đó điện dung của đầu dò (probe) được đưa qua mạch chuyển đổi tín hiệu để chuyển thành tín hiệu điện có thể đọc được bằng bộ chuyển đổi ADC (Analog to Digital Converter) của mạch xử lý.
 
 ## Thông số kỹ thuật
 
-- Model: MKE-S12
+- Model: MKE-S13
 - Điện áp hoạt động: 5VDC
 - Chuẩn giao tiếp: Analog
 - Điện áp giao tiếp: 0~3.3VDC
-- Đo lượng nước lưu lại trên đầu dò theo nguyên lý cảm ứng điện dung và trả ra giá trị điện áp Analog tuyến tính tương ứng.
+- Đo độ ẩm đất tại vị trí đầu dò theo nguyên lý cảm ứng điện dung và trả ra giá trị điện áp Analog tuyến tính tương ứng.
 - Hoạt động theo nguyên lý cảm ứng điện dung nên đầu dò được phủ lớp sơn chống oxy hóa (không hở phần tiếp xúc kim loại như các loại sử dụng nguyên lý điện trở) cho độ bền cao.
 - Sử dụng trực tiếp an toàn với các board mạch giao tiếp ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....
 - Bổ sung thêm các thiết kế ổn định, chống nhiễu.
@@ -26,14 +26,14 @@ Cảm biến hoạt động theo nguyên lý cảm ứng điện dung để nh�
 
 ## Hình ảnh sản phẩm
 
-![MKE_S12](/image/MKE_S12_1.jpg)
+![MKE_S13](/image/MKE_S13_1.jpg)
 
-![MKE_S12](/image/MKE_S12_2.jpg)
+![MKE_S13](/image/MKE_S13_2.jpg)
 
 ## Kích thước sản phẩm
 
-![MKE_S12](/image/MKE_S12_3.jpg)
-![MKE_S12](/image/MKE_S12_4.jpg)
+![MKE_S13](/image/MKE_S13_3.jpg)
+![MKE_S13](/image/MKE_S13_4.jpg)
 
 ## Các chân tín hiệu
 
@@ -66,7 +66,7 @@ Cảm biến hoạt động theo nguyên lý cảm ứng điện dung để nh�
 [Hướng dẫn cài đặt phần mềm, nạp chương trình, cài đặt bộ thư viện Arduino cơ bản.](https://github.com/makerlabvn/Arduino-Vietduino)
 - Tải và cài đặt [phần mềm Arduino tại đây.](https://www.arduino.cc/en/software)
 - Trong Tools / Library Manager, tìm và cài đặt bộ thư viện tổng hợp "MAKERLABVN" by MakerLab.vn
-- Mở chương trình mẫu "MKE_S12_Rain_LCD_Serial.ino" tại File / Examples / MAKERLABVN / Sensor / MKE_S12_Rain hoặc [tải chương trình mẫu tại đây](/arduino)
+- Mở chương trình mẫu "MKE_S13_Soil_LCD_Serial.ino" tại File / Examples / MAKERLABVN / Sensor / MKE_S13_Soil hoặc [tải chương trình mẫu tại đây](/arduino)
 - Chọn board là Arduino Uno (mạch Vietduino Uno tương thích với Arduino Uno), chọn đúng cổng COM Port của mạch và tiến hành nạp chương trình.
 - Kết nối mạch Vietduino Uno với MakerEdu Shield, kết nối cảm biến tại cổng [A1] và màn hình LCD vào cổng [I2C] trên MakerEdu Shield, cấp nguồn qua cổng USB của Vietduino Uno để thấy chương trình hoạt động.
 
@@ -83,7 +83,7 @@ Cảm biến hoạt động theo nguyên lý cảm ứng điện dung để nh�
 ### Hướng dẫn lập trình với Micro:bit (kéo thả khối)
 [Hướng dẫn nạp chương trình, cài đặt Extension Micro:bit cơ bản.](https://github.com/makerlabvn/MakeCode-microbit)
 - Khởi động phần mềm MakeCode tại: [https://makecode.microbit.org/](https://makecode.microbit.org/)
-- Chọn My Projects / Import / Import URL theo đường link của chương trình mẫu: [https://github.com/devmakerlabvn/makecode-mke-s12-rain-water-sensor](https://github.com/devmakerlabvn/makecode-mke-s12-rain-water-sensor)
+- Chọn My Projects / Import / Import URL theo đường link của chương trình mẫu: [https://github.com/devmakerlabvn/makecode-mke-s13-soil-moisture-sensor](https://github.com/devmakerlabvn/makecode-mke-s13-soil-moisture-sensor)
 - Kết nối Micro:bit với máy tính và nạp chương trình.
 - Kết nối mạch Micro:bit với MakerEdu Shield, kết nối cảm biến tại cổng [P0] và màn hình LCD vào cổng [I2C] trên MakerEdu Shield, **cấp nguồn qua cổng USB của MakerEdu Shield** để thấy chương trình hoạt động.
 
